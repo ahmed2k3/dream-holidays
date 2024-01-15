@@ -1,0 +1,84 @@
+/* Shared styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1170px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+/* Header Section Styling */
+
+.header {
+  margin-top: 50px;
+}
+
+/* Start Navbar Section */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .nav-logo {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  border: 1px solid green;
+}
+
+.navbar .nav-logo h3 {
+  color: #131318;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-left: 16px;
+}
+
+.navbar .nav-logo #logo-highlight {
+  color: #ff5400;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.navbar .nav-menu {
+  width: 45%;
+  border: 1px solid yellowgreen;
+}
+
+.navbar .nav-menu #menu-highlight {
+  color: #ff5400;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbar .nav-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .nav-menu ul li a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* End Navbar Section */
