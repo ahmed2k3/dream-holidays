@@ -11,7 +11,6 @@
   width: 80%;
   max-width: 1170px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 /* Header Section Styling */
@@ -32,7 +31,6 @@
   display: flex;
   align-items: center;
   width: 50%;
-  border: 1px solid green;
 }
 
 .navbar .nav-logo h3 {
@@ -54,7 +52,10 @@
 
 .navbar .nav-menu {
   width: 45%;
-  border: 1px solid yellowgreen;
+}
+
+.navbar .nav-menu .fa-bars {
+  display: none;
 }
 
 .navbar .nav-menu #menu-highlight {
